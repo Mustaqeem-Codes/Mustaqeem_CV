@@ -33,7 +33,7 @@ export default function Header() {
 
           {/* Right: CTA Button (desktop) */}
           <a
-            href="../app/Mustaqeem_CV.pdf"
+            href="/Mustaqeem_CV.pdf"
             download
             className="hidden md:inline-flex items-center gap-2 px-5 py-2.5 text-sm font-semibold rounded-lg bg-[#2563EB] text-white hover:bg-[#1D4ED8] transition-colors shadow-lg shadow-blue-500/20"
           >
@@ -43,7 +43,7 @@ export default function Header() {
           {/* Mobile Hamburger Button */}
           <button
             onClick={toggleMenu}
-            className="md:hidden flex flex-col gap-1.5 p-2 rounded-lg border border-[#1e293b] hover:border-white/30 transition"
+            className="md:hidden flex flex-col gap-1.5   p-2 rounded-lg border border-[#1e293b] hover:border-white/30 transition"
             aria-label="Toggle menu"
           >
             <span
@@ -85,7 +85,7 @@ export default function Header() {
           ))}
           <li className="pt-2">
             <a
-              href="/cv.pdf"
+              href="/Mustaqeem_CV.pdf"
               download
               className="inline-flex items-center gap-2 px-5 py-2.5 text-sm font-semibold rounded-lg bg-[#2563EB] text-white hover:bg-[#1D4ED8] transition-colors shadow-lg shadow-blue-500/20"
               onClick={() => setIsMenuOpen(false)}
