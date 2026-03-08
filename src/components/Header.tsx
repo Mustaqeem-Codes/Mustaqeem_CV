@@ -33,7 +33,7 @@ export default function Header() {
 
           {/* Right: CTA Button (desktop) */}
           <a
-            href="/cv.pdf"
+            href="../app/Mustaqeem_CV.pdf"
             download
             className="hidden md:inline-flex items-center gap-2 px-5 py-2.5 text-sm font-semibold rounded-lg bg-[#2563EB] text-white hover:bg-[#1D4ED8] transition-colors shadow-lg shadow-blue-500/20"
           >
