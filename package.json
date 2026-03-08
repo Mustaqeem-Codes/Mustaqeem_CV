@@ -1,0 +1,39 @@
+{
+  "name": "mustaqeem_cv",
+  "version": "1.0.0",
+  "description": "Personal CV/Portfolio of Mustaqeem",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Mustaqeem-Codes/Mustaqeem_CV.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Mustaqeem-Codes/Mustaqeem_CV/issues"
+  },
+  "homepage": "https://github.com/Mustaqeem-Codes/Mustaqeem_CV#readme",
+  "dependencies": {
+    "framer-motion": "^12.35.1",
+    "lucide-react": "^0.577.0",
+    "next": "^16.1.6",
+    "react": "^19.2.4",
+    "react-dom": "^19.2.4",
+    "react-icons": "^5.6.0"
+  },
+  "devDependencies": {
+    "@tailwindcss/postcss": "^4.2.1",
+    "@types/node": "^25.3.5",
+    "@types/react": "^19.2.14",
+    "autoprefixer": "^10.4.27",
+    "postcss": "^8.5.8",
+    "tailwindcss": "^4.2.1",
+    "typescript": "^5.9.3"
+  }
+}
